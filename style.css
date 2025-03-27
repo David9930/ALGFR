@@ -1,0 +1,108 @@
+/* Basic Reset & Body Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Common fallback for Proxima Nova */
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; /* Dark grey text */
+    background-color: #fff; /* White background */
+}
+
+.container {
+    max-width: 960px; /* Adjust width as needed */
+    margin: 20px auto; /* Center the container with some top/bottom margin */
+    padding: 0 20px; /* Add padding on the sides */
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-family: 'Times New Roman', Times, serif; /* Or specify the actual font if known */
+    font-size: 2.8em; /* Adjust size */
+    font-weight: normal; /* Or bold if needed */
+    color: #000; /* Black or near-black */
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    margin-bottom: 40px;
+    border-top: 1px solid #eee; /* Light line above nav */
+    border-bottom: 1px solid #eee; /* Light line below nav */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px; /* Spacing between nav items */
+}
+
+nav a {
+    text-decoration: none;
+    color: #555; /* Greyish color for links */
+    font-size: 1.1em;
+    padding: 5px 0; /* Add some padding for click area */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+nav a:hover,
+nav a.active { /* Style for hover and current page */
+    color: #000; /* Black on hover/active */
+    /* text-decoration: underline; Optional underline on hover */
+}
+
+/* Main Content Area */
+main {
+    margin-bottom: 40px;
+}
+
+main section {
+    margin-bottom: 30px;
+}
+
+main h2 {
+    font-size: 1.8em;
+    font-weight: normal;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center; /* Center section headers */
+    font-family: 'Times New Roman', Times, serif; /* Match header font */
+}
+
+main p {
+    margin-bottom: 15px;
+    text-align: justify; /* Justify text like in the original */
+}
+
+/* Images (Basic Responsive Style) */
+img {
+    max-width: 100%; /* Ensure images don't overflow container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevent extra space below images */
+    margin: 20px auto; /* Center images if needed */
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    border-top: 1px solid #eee; /* Light line above footer */
+    font-size: 0.9em;
+    color: #777; /* Lighter grey for footer text */
+}
