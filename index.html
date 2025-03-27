@@ -4,52 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Letter Guide For Rebecca</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- If you use specific web fonts like Proxima Nova, you might need to add font links here later -->
+    <!-- Make sure the CSS file exists or create it -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- If you use specific web fonts, add links here later -->
 </head>
 <body>
 
+    <!-- We might adjust this container later for full-width sections -->
     <div class="container">
 
         <header>
-            <h1>A Letter Guide For Rebecca</h1>
+            <!-- Site Title -->
+            <div class="site-title">
+                 <h1>A Letter Guide For Rebecca</h1>
+                 <!-- If you have a logo image: -->
+                 <!-- <img src="images/logo.png" alt="A Letter Guide For Rebecca Logo"> -->
+            </div>
+
+            <!-- Navigation -->
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About the Author</a></li> <!-- Link to future about.html -->
+                    <li><a href="buy.html">Buy the Book</a></li>     <!-- Link to future buy.html or external link -->
+                    <li><a href="contact.html">Contact</a></li>   <!-- Link to future contact.html -->
+                </ul>
+            </nav>
         </header>
 
-        <nav>
-            <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="#">About</a></li> <!-- We'll create about.html later -->
-                <li><a href="#">The Letters</a></li> <!-- We'll create letters.html later -->
-                <li><a href="#">Contact</a></li> <!-- We'll create contact.html later -->
-            </ul>
-        </nav>
-
         <main>
-            <section class="intro">
-                <!-- If there was an introductory image here, you would add it like this: -->
-                <!-- <img src="images/your-intro-image.jpg" alt="Description of intro image"> -->
-                <p>This website is dedicated to Rebecca, containing letters written over time. It serves as a guide and a collection of thoughts, memories, and hopes.</p>
-                <p>Navigate through the sections to explore the different aspects covered in the letters.</p>
+            <!-- Hero Section -->
+            <section id="hero">
+                <div class="hero-content">
+                    <h2>A Letter Guide for Rebecca</h2>
+                    <p>An encouraging guide for young women navigating faith, relationships, and life's challenges.</p>
+                    <!-- We need to figure out where this button should link to (e.g., the Buy page or an external site) -->
+                    <a href="buy.html" class="button">Order Now</a>
+                </div>
+                <!-- The background image for #hero will be added via CSS -->
+                <!-- CSS would target #hero { background-image: url('../images/YOUR-HERO-IMAGE.jpg'); } -->
+                <!-- Replace 'YOUR-HERO-IMAGE.jpg' with the actual filename -->
             </section>
 
-            <section id="about-letters">
-                <h2>About the Letters</h2>
-                <p>The letters compiled here span various topics and moments. They are intended to offer guidance, share experiences, and express feelings that are sometimes better captured in writing. Each letter holds a piece of a larger narrative, meant to be read and reflected upon.</p>
-                <!-- If there was an image specific to this section: -->
-                <!-- <img src="images/letters-image.jpg" alt="Description of letters image"> -->
+            <!-- About the Book Section (Placeholder Structure) -->
+            <section id="about-book">
+                <h2>About the Book</h2>
+                <div class="about-content">
+                    <div class="text">
+                        <p>Insert the paragraph describing the book here...</p>
+                    </div>
+                    <div class="image">
+                        <!-- Replace 'book-cover.png' with the actual filename -->
+                        <img src="images/book-cover.png" alt="Book cover for A Letter Guide for Rebecca">
+                    </div>
+                </div>
             </section>
 
-            <section id="about-rebecca">
-                <h2>About Rebecca</h2>
-                <p>Rebecca is the recipient and inspiration for these letters. This space is created with her in mind, hoping it provides insight, comfort, and a lasting connection through the written word. The content reflects perspectives and advice tailored for her journey.</p>
-                 <!-- If there was an image specific to this section: -->
-                 <!-- <img src="images/rebecca-image.jpg" alt="Description of rebecca image"> -->
-           </section>
+            <!-- Praise for the Book Section (Placeholder Structure) -->
+            <section id="praise">
+                <h2>Praise for the Book</h2>
+                <div class="testimonial">
+                    <blockquote>"Quote text goes here..."</blockquote>
+                    <cite>– Name/Source of Testimonial</cite>
+                </div>
+                <div class="testimonial">
+                    <blockquote>"Another quote text goes here..."</blockquote>
+                    <cite>– Name/Source of Testimonial</cite>
+                </div>
+                <!-- Add more testimonial divs as needed -->
+            </section>
+
+            <!-- Meet the Author Section (Placeholder Structure) -->
+            <section id="meet-author">
+                <h2>Meet the Author</h2>
+                 <div class="author-content">
+                    <div class="image">
+                        <!-- Replace 'author-photo.jpg' with the actual filename -->
+                        <img src="images/author-photo.jpg" alt="Photo of the Author">
+                    </div>
+                     <div class="text">
+                        <p>Insert the paragraph describing the author here...</p>
+                        <!-- Link to the full About page -->
+                        <a href="about.html" class="button-secondary">Read More</a>
+                    </div>
+                </div>
+            </section>
+
         </main>
 
         <footer>
-            <p>©2024 by A Letter Guide For Rebecca. Created with care.</p>
-            <!-- You might want to add Proudly hosted on GitHub Pages later -->
+            <!-- Update the year and text to exactly match Wix if desired -->
+            <p>© 2024 by A Letter Guide for Rebecca.</p>
+            <!-- Optional: <p>Proudly hosted on GitHub Pages</p> -->
         </footer>
 
     </div> <!-- /container -->
